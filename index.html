@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="theme theme--1">
+      <div class="calculator">
+        <header class="calculator__header">
+          <div class="calculator__logo">calc</div>
+          <div class="dummy">
+            <div class="calculator__side-title right">THEME</div>
+            <div class="calculator__theme">
+              <div class="calculator__theme-numbering">
+                <span class="calculator__theme-1">1</span>
+                <span class="calculator__theme-2">2</span>
+                <span class="calculator__theme-3">3</span>
+              </div>
+              <div class="calculator__theme-btn">
+                <span class="calculator__theme-btn__toggler"></span>
+              </div>
+            </div>
+          </div>
+        </header>
+        <input type="text" class="calculator__input" readonly/>
+        <div class="calculator__keys">
+          <div class="calculator__key" data-key="7">7</div>
+          <div class="calculator__key" data-key="8">8</div>
+          <div class="calculator__key" data-key="9">9</div>
+          <div class="calculator__key calculator__key--grey" data-op="del">DEL</div>
+          <div class="calculator__key" data-key="4">4</div>
+          <div class="calculator__key" data-key="5">5</div>
+          <div class="calculator__key" data-key="6">6</div>
+          <div class="calculator__key" data-key="+">+</div>
+          <div class="calculator__key" data-key="1">1</div>
+          <div class="calculator__key" data-key="2">2</div>
+          <div class="calculator__key" data-key="3">3</div>
+          <div class="calculator__key" data-key="-">-</div>
+          <div class="calculator__key" data-key=".">.</div>
+          <div class="calculator__key" data-key="0">0</div>
+          <div class="calculator__key" data-key="/">/</div>
+          <div class="calculator__key" data-key="*">x</div>
+          <div
+            class="calculator__key calculator__key--wide calculator__key--grey" data-op="reset"
+          >
+            RESET
+          </div>
+          <div
+            class="calculator__key calculator__key--wide calculator__key--red" data-op="equal"
+          >
+            =
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div> -->
